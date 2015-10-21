@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
@@ -145,6 +146,7 @@
                         </constraints>
                     </view>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 <constraints>
                     <constraint firstItem="alK-G6-PzC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Tdk-qR-nYw"/>
                     <constraint firstItem="alK-G6-PzC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="3" id="WMR-NW-Agc"/>
@@ -152,7 +154,7 @@
                     <constraint firstAttribute="trailing" secondItem="alK-G6-PzC" secondAttribute="trailing" constant="3" id="mtk-cO-9LB"/>
                 </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="buttonsBorderHeight" destination="Emo-jk-krv" id="Apl-L4-GUJ"/>
                 <outlet property="centerBorderHeight" destination="Eh5-Mm-hAK" id="QcM-3t-cev"/>

@@ -54,6 +54,7 @@ class MainTableController: UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCellWithIdentifier(mainTableViewCellReuseIdentifier) as! MainTableViewCell;
+        cell.backgroundColor = tableView.backgroundColor;
         cell.setTaskData(dataArray[indexPath.row] as! TaskData);
         return cell;
     }
